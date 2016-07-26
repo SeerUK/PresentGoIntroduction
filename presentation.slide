@@ -1,0 +1,73 @@
+Introduction to Go
+
+Elliot Wright
+Full Stack Software Engineer at Byng
+https://byng.co
+https://tech.byng.co
+https://github.com/SeerUK
+hello@elliotdwright.com
+
+* Introduction to Introduction to Go
+
+Wait a minute... this isn't what Byng presentations normally look like! Uhhh..
+
+.image images/byng-logo.jpg _ 150
+
+Contents
+
+- What / Why Go?
+- Toolchain
+- Code samples
+- Testing
+- Building / running
+- Q (and maybe) A
+
+* What / Why Go?
+
+- Developed at Google, by Robert Griesemer, Rob Pike, and Ken Thompson
+- Simple, regular syntax
+- Documentation as standard (hot topic)
+- Garbage collection
+- Statically typed
+- Speed (both at runtime, and compilation)
+- Built-in primitives for concurrency
+- Incredible standard library
+- Incredibly toolchain (more on that, coming up...)
+
+# Those guys are some of the founding fathers of Unix, and other languages.
+# Used in production at Google (amongst many other places, BBC, CloudFlare, DigitalOcean, Docker, Dropbox, Facebook, GOV.UK, Hashicorp, Medium, SendGrid, Twitter, Uber, and many more).
+# Remember to explain what these things are too, not everyone may know what garbage collection is, and why that's a big deal for a language like Go. Statically typed too.
+# Static typing is when types are known at compile-time, instead of runtime. Probably a good opportunity for some kind of metaphor here!
+
+* Go vs. Byng's Backend Stack (PHP / NodeJS)
+
+- No need for an interpreter (compiles to a statically linked binary)
+- Designed with scalability in mind
+- One way to do things, consistently
+- Easy to ramp up new developers
+- Type safety
+- Very low resource usage
+
+* Toolchain
+
+Testing
+
+* Code Samples
+
+Testing
+
+* Testing
+
+Testing
+
+* Building / Running
+
+Testing
+
+* Objectives
+
+Testing
+
+* Q (and maybe) A
+
+Testing

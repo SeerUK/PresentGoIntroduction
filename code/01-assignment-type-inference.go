@@ -12,7 +12,7 @@ func main() {
 	foo = "Hello, World!"
 
 	// Method 2
-	bar := "Hello, World!"
+	bar := foo
 
 	fmt.Println(foo)
 	fmt.Println(bar)

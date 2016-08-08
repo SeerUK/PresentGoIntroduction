@@ -21,6 +21,8 @@ What we're going to briefly cover:
 - Toolchain
 - Q (and maybe) A
 
+My objectives are...
+
 * What?
 
 - Developed at Google, by Robert Griesemer, Rob Pike, and Ken Thompson
@@ -32,10 +34,11 @@ What we're going to briefly cover:
 - Incredible standard library
 - Incredibly toolchain (more on that, coming up...)
 
-# Those guys are some of the founding fathers of Unix, and other languages.
-# Used in production at Google (amongst many other places, BBC, CloudFlare, DigitalOcean, Docker, Dropbox, Facebook, GOV.UK, Hashicorp, Medium, SendGrid, Twitter, Uber, and many more).
-# Remember to explain what these things are too, not everyone may know what garbage collection is, and why that's a big deal for a language like Go. Statically typed too.
-# Static typing is when types are known at compile-time, instead of runtime. Probably a good opportunity for some kind of metaphor here!
+: Robert Griesemer: Worked on the Java HotSpot compiler.
+: Rob Pike: Member of Unix team at Bell Labs. Involved in the creation of a couple of operating sytems for Bell Labs, and the Limbo programming language.
+: Ken Thompson: Also worked at Bell Labs. Designed and implemented the original Unix operating system. Also invented the B programming language, the direct predecessor to C.
+: Used in production at Google (amongst many other places, BBC, CloudFlare, DigitalOcean, Docker, Dropbox, Facebook, GOV.UK, Hashicorp, Medium, SendGrid, Twitter, Uber, and many more).
+: Explain what things are, why they're important.
 
 * Why?
 
@@ -54,22 +57,24 @@ A little Go-ception...
 
 .play ./code/00-hello-world.go
 
+* Assignment and Type Inference
+
+.play ./code/01-assignment-type-inference.go /START OMIT/,/END OMIT/
+
+
+
 * Toolchain
 
-Testing
+- `go` `build`
+- `go` `doc`
+- `go` `get`
+- `go` `run`
+- `go` `test`
+- `gofmt` / `goimports`
+- `golint`
 
-* Testing
+* Testing / Building / Running
 
-Testing
-
-* Building / Running
-
-Testing
-
-* Objectives
-
-Testing
+To the terminal!
 
 * Q (and maybe) A
-
-Testing

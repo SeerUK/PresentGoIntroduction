@@ -1,4 +1,5 @@
 Introduction to Go
+3rd Edition
 
 Elliot Wright
 Full Stack Software Engineer at Byng
@@ -9,26 +10,23 @@ hello@elliotdwright.com
 
 * Introduction to Introduction to Go
 
-Wait a minute... this isn't what Byng presentations normally look like! Uhhh..
+Hang on... this isn't what Byng presentations normally look like! Uhhh... is this better?
 
 .image images/byng-logo.jpg _ 150
 
-Contents
+What we're going to briefly cover:
 
 - What / Why Go?
-- Toolchain
 - Code samples
-- Testing
-- Building / running
+- Toolchain
 - Q (and maybe) A
 
-* What / Why Go?
+* What?
 
 - Developed at Google, by Robert Griesemer, Rob Pike, and Ken Thompson
-- Simple, regular syntax
-- Documentation as standard (hot topic)
-- Garbage collection
 - Statically typed
+- Garbage collected
+- Simple, regular syntax
 - Speed (both at runtime, and compilation)
 - Built-in primitives for concurrency
 - Incredible standard library
@@ -39,7 +37,7 @@ Contents
 # Remember to explain what these things are too, not everyone may know what garbage collection is, and why that's a big deal for a language like Go. Statically typed too.
 # Static typing is when types are known at compile-time, instead of runtime. Probably a good opportunity for some kind of metaphor here!
 
-* Go vs. Byng's Backend Stack (PHP / NodeJS)
+* Why?
 
 - No need for an interpreter (compiles to a statically linked binary)
 - Designed with scalability in mind
@@ -48,11 +46,15 @@ Contents
 - Type safety
 - Very low resource usage
 
-* Toolchain
-
-Testing
-
 * Code Samples
+
+* Hello, World!
+
+A little Go-ception...
+
+.play ./code/00-hello-world.go
+
+* Toolchain
 
 Testing
 

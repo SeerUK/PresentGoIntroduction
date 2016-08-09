@@ -65,7 +65,7 @@ My objectives are...
 - Time
 - ...
 
-* Code Samples
+* Code
 
 * Hello, World!
 
@@ -96,6 +96,8 @@ A bit of a point of contention amongst developers. Usually people new to Go will
 .play ./code/05-interfaces-duck-typing.go /START OMIT/,/END OMIT/
 
 * Goroutines
+
+A goroutine is a lightweight thread managed by the Go runtime.
 
 .play ./code/06-goroutines.go /START OMIT/,/END OMIT/
 

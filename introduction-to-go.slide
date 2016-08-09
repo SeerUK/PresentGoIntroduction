@@ -85,11 +85,19 @@ A bit of a point of contention amongst developers. Usually people new to Go will
 
 * Pointers
 
+.play ./code/03-pointers.go /START OMIT/,/END OMIT/
+
 * Structs
+
+.play ./code/04-structs.go /START OMIT/,/END OMIT/
 
 * Interfaces and Duck Typing
 
+.play ./code/05-interfaces-duck-typing.go /START OMIT/,/END OMIT/
+
 * Goroutines
+
+.play ./code/06-goroutines.go /START OMIT/,/END OMIT/
 
 * Toolchain
 

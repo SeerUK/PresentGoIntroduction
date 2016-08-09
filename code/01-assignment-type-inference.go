@@ -12,10 +12,18 @@ func main() {
 	foo = "Hello, World!"
 
 	// Method 2
-	bar := foo
+	bar := "Hello, World!"
+	baz := bar
+	qux := createGreeting("Gophers")
 
 	fmt.Println(foo)
 	fmt.Println(bar)
+	fmt.Println(baz)
+	fmt.Println(qux)
+}
+
+func createGreeting(name string) string {
+	return fmt.Sprintf("Hello, %s!", name)
 }
 
 // END OMIT

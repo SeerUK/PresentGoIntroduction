@@ -49,11 +49,25 @@ My objectives are...
 - Type safety
 - Very low resource usage
 
+* Standard Library
+
+- Archiving / compression
+- Crypto, encoding, and hashing
+- Database
+- Flags (for building CLI applications)
+- HTML and templating
+- Image processing
+- Maths
+- Networking (HTTP, mail, RPC, SMTP, etc.)
+- String conversations, and manipulation
+- Testing
+- Text (including things for creating custom parsers (which I've actually used!))
+- Time
+- ...
+
 * Code Samples
 
 * Hello, World!
-
-A little Go-ception...
 
 .play ./code/00-hello-world.go
 
@@ -61,7 +75,21 @@ A little Go-ception...
 
 .play ./code/01-assignment-type-inference.go /START OMIT/,/END OMIT/
 
+* Error Handling
 
+A bit of a point of contention amongst developers. Usually people new to Go will find this bit a little cumbersome. Then you see the light...
+
+.play ./code/02-error-handling.go
+
+: Errors are values.
+
+* Pointers
+
+* Structs
+
+* Interfaces and Duck Typing
+
+* Goroutines
 
 * Toolchain
 

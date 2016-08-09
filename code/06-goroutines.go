@@ -15,11 +15,13 @@ func delayedReturn(in string, delay time.Duration, ch chan string) {
 func main() {
 	ch := make(chan string)
 
-	go delayedReturn("World", 2000, ch)
-	go delayedReturn("Hello...", 200, ch)
+	defer close(ch)
 
-	fmt.Println("Waiting for return...")
+	go delayedReturn("I'm thinking...", 2000, ch)
+	go delayedReturn("Hold on...", 200, ch)
+	go delayedReturn("Hmmm...", 400, ch)
 
+	fmt.Print(<-ch)
 	fmt.Print(<-ch)
 	fmt.Println(<-ch)
 }

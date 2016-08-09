@@ -32,7 +32,7 @@ My objectives are...
 - Speed (both at runtime, and compilation)
 - Built-in primitives for concurrency
 - Incredible standard library
-- Incredibly toolchain (more on that, coming up...)
+- Incredible toolchain (more on that, coming up...)
 
 : Robert Griesemer: Worked on the Java HotSpot compiler.
 : Rob Pike: Member of Unix team at Bell Labs. Involved in the creation of a couple of operating sytems for Bell Labs, and the Limbo programming language.

@@ -7,7 +7,7 @@ import (
 
 // START OMIT
 func main() {
-	// notVeryUsefulFunction returns a function if you ask for one.
+	// notVeryUsefulFunction returns an error if you ask for one.
 	err := notVeryUsefulFunction(true)
 	if err != nil {
 		// Perhaps we should try not making an error...

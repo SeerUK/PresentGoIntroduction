@@ -79,7 +79,7 @@ My objectives are...
 
 A bit of a point of contention amongst developers. Usually people new to Go will find this bit a little cumbersome. Then you see the light...
 
-.play ./code/02-error-handling.go
+.play ./code/02-error-handling.go /START OMIT/,/END OMIT/
 
 : Errors are values.
 

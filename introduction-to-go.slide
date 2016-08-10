@@ -17,7 +17,7 @@ Hang on... this isn't what Byng presentations normally look like! Uhhh... is thi
 What we're going to briefly cover:
 
 - What / Why Go?
-- Code samples
+- Code Samples
 - Toolchain
 - Q (and maybe) A
 
@@ -65,7 +65,7 @@ My objectives are...
 - Time
 - ...
 
-* Code
+* Code Samples
 
 * Hello, World!
 
@@ -103,6 +103,8 @@ A goroutine is a lightweight thread managed by the Go runtime.
 
 * Toolchain
 
+* Common Tools
+
 - `go` `build`
 - `go` `doc`
 - `go` `get`
@@ -110,9 +112,17 @@ A goroutine is a lightweight thread managed by the Go runtime.
 - `go` `test`
 - `gofmt` / `goimports`
 - `golint`
+- `gorename`
+
+All of the above tools are available officially from golang.org!
+
+- `gocode`
+- `gocov`
 
 * Testing / Building / Running
 
 To the terminal!
+
+.image images/tron.jpg _ 800
 
 * Q (and maybe) A

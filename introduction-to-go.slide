@@ -118,8 +118,8 @@ A goroutine is a lightweight thread managed by the Go runtime.
 
 All of the above tools are available officially from golang.org!
 
-- `gocode`
-- `gocov`
+- `gocode`: Autocomplete daemon.
+- `gocov`: Third-party coverage reporting tool.
 
 * Testing / Building / Running
 

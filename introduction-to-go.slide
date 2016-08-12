@@ -14,7 +14,7 @@ Hang on... this isn't what Byng presentations normally look like! Uhhh... is thi
 
 .image images/byng-logo.jpg _ 150
 
-What we're going to briefly cover:
+What we're going to cover:
 
 - What / Why Go?
 - Code Samples
@@ -68,6 +68,8 @@ My objectives are...
 * Code Samples
 
 * Hello, World!
+
+I couldn't start without this...
 
 .play ./code/00-hello-world.go
 
